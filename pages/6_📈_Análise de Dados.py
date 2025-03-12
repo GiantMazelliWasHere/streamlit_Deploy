@@ -29,7 +29,7 @@ leis = pd.read_csv("databases/Cybersecurity legislation_regulation exist.csv")
 
 st.set_page_config(page_title="Análise de Dados", layout="wide")
 
-st.logo("images/crowdstrike.png")
+st.logo("images/crowdstrike.png", size="large")
 
 st.sidebar.markdown("Desenvolvido por Eduardo Mazelli ®️ 2025")
 col1, col2 = st.sidebar.columns([0.5, 0.5])

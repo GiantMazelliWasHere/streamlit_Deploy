@@ -5,7 +5,7 @@ from streamlit_extras.app_logo import add_logo
 
 st.set_page_config(page_title="Eduardo Mazelli", layout="wide")
 
-st.logo("images/crowdstrike.png")
+st.logo("images/crowdstrike.png", size="large")
 
 st.sidebar.markdown("Desenvolvido por Eduardo Mazelli ®️ 2025")
 
